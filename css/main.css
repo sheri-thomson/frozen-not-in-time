@@ -6,14 +6,14 @@ html {
 
 h1 {
   color: #990073;
-  transform: left center;
+  transform-origin: left center;
 
 }
 
 p {
   color: #c09;
   max-width: 19em;
-  transform: left center;
+  transform-origin: left center;
 }
 
 .btn {
