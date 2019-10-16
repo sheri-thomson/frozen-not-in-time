@@ -1,3 +1,29 @@
 html {
   font-family: "Fredoka One", sans-serif;
 }
+
+h1 {
+  color: #990073;
+}
+
+p {
+  color: #c09;
+}
+
+.btn {
+  color: #c09;
+}
+
+img {
+  max-width: 150px;
+}
+
+.btn-ghost {
+  border-color: #990073;
+}
+
+.btn-ghost:hover {
+  color: #c09;
+  border-color: #c09;
+
+}
