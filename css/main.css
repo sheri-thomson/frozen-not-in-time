@@ -1,13 +1,19 @@
 html {
   font-family: "Fredoka One", sans-serif;
+  background-image: repeating-linear-gradient(-25deg, #d4fdff, #d4fdff 10px, #c9fcff 10px, #c9fcff 20px);
+
 }
 
 h1 {
   color: #990073;
+  transform: left center;
+
 }
 
 p {
   color: #c09;
+  max-width: 19em;
+  transform: left center;
 }
 
 .btn {
@@ -25,5 +31,10 @@ img {
 .btn-ghost:hover {
   color: #c09;
   border-color: #c09;
+  opacity: .5
+}
 
+.intro {
+  animation: intro 1s linear;
+  text-shadow: 1px 1px 1px;
 }
