@@ -1,13 +1,17 @@
 html {
   font-family: "Fredoka One", sans-serif;
   background-image: repeating-linear-gradient(-25deg, #d4fdff, #d4fdff 10px, #c9fcff 10px, #c9fcff 20px);
-
+  border-bottom: 6px solid #b3fbff;
+  border-top: 6px solid #b3fbff;
+  padding-bottom: 2em;
+  padding-top: 2em;
+  min-height: 500px;
+  max-height: 500px;
 }
 
 h1 {
   color: #990073;
   transform-origin: left center;
-
 }
 
 p {
@@ -31,10 +35,130 @@ img {
 .btn-ghost:hover {
   color: #c09;
   border-color: #c09;
-  opacity: .5
+  opacity: .5;
 }
 
 .intro {
-  animation: intro 1s linear;
+  -webkit-animation: intro 1s linear;
   text-shadow: 1px 1px 1px;
+}
+
+.h1 {
+  transform: rotate(-15deg);
+}
+
+.content {
+  transform: rotate(-10deg);
+}
+
+.cherry {
+  right: 50px;
+  bottom: 250px;
+  -webkit-animation: cherry .5s linear forwards;
+}
+
+.vanilla-fudge {
+  right: 50px;
+  bottom: 200px;
+  -webkit-animation: vanilla-fudge .5s linear forwards;
+}
+
+.chocolate-chip {
+  right: 50px;
+  bottom: 150px;
+  -webkit-animation: chocolate-chip .5s linear forwards;
+}
+
+.mint-chip {
+  right: 50px;
+  bottom: 100px;
+  -webkit-animation: mint-chip .5s linear forwards;
+}
+
+.cone {
+  right: 50px;
+  bottom: 50px;
+  -webkit-animation: cone .5s linear forwards;
+}
+
+@keyframes intro {
+
+  0% {
+    filter: opacity(0);
+  }
+
+  50% {
+    filter: opacity(.5);
+    filter: blur(.5px);
+  }
+
+  100% {
+    filter: opacity(1);
+  }
+
+}
+
+@keyframes cherry {
+
+  0% {
+    transform: translateX(0);
+    transform: translateY(-500px);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+
+}
+
+@keyframes vanilla-fudge {
+
+  0% {
+    transform: translateX(0);
+    transform: translateY(-500px);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+
+}
+
+@keyframes chocolate-chip {
+
+  0% {
+    transform: translateX(0);
+    transform: translateY(-500px);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+
+}
+
+@keyframes mint-chip {
+
+  0% {
+    transform: translateX(0);
+    transform: translateY(-500px);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+
+}
+
+@keyframes cone {
+
+  0% {
+    transform: translateX(0);
+    transform: translateY(-500px);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+
 }
