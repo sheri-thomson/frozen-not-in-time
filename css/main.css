@@ -54,25 +54,25 @@ img {
 .cherry {
   right: 50px;
   bottom: 250px;
-  -webkit-animation: cherry .5s linear forwards;
+  -webkit-animation: cone .5s linear forwards;
 }
 
 .vanilla-fudge {
   right: 50px;
   bottom: 200px;
-  -webkit-animation: vanilla-fudge .5s linear forwards;
+  -webkit-animation: cone .5s linear forwards;
 }
 
 .chocolate-chip {
   right: 50px;
   bottom: 150px;
-  -webkit-animation: chocolate-chip .5s linear forwards;
+  -webkit-animation: cone .5s linear forwards;
 }
 
 .mint-chip {
   right: 50px;
   bottom: 100px;
-  -webkit-animation: mint-chip .5s linear forwards;
+  -webkit-animation: cone .5s linear forwards;
 }
 
 .cone {
