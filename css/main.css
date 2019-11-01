@@ -1,6 +1,6 @@
 html {
   font-family: "Fredoka One", sans-serif;
-  background-image: repeating-linear-gradient(-25deg, #d4fdff, #d4fdff 10px, #c9fcff 10px, #c9fcff 20px);
+  background-image: repeating-linear-gradient(-30deg, #d4fdff, #d4fdff 10px, #c9fcff 10px, #c9fcff 20px);
   border-bottom: 6px solid #b3fbff;
   border-top: 6px solid #b3fbff;
   padding-bottom: 4em;
@@ -25,7 +25,7 @@ p {
 }
 
 img {
-  max-width: 150px;
+  max-width: 180px;
 }
 
 .btn-ghost {
@@ -52,33 +52,33 @@ img {
 }
 
 .cherry {
-  right: 55px;
-  bottom: 275px;
+  right: 200px;
+  bottom: 270px;
   -webkit-animation: cone .6s linear forwards;
 }
 
 .vanilla-fudge {
-  right: 55px;
+  right: 160px;
   bottom: 200px;
   -webkit-animation: cone .5s linear forwards;
 }
 
 .chocolate-chip {
-  right: 55px;
-  bottom: 125px;
-  -webkit-animation: cone .5s linear forwards;
+  right: 160px;
+  bottom: 130px;
+  -webkit-animation: cone .4s linear forwards;
 }
 
 .mint-chip {
-  right: 55px;
-  bottom: 50px;
-  -webkit-animation: cone .5s linear forwards;
+  right: 160px;
+  bottom: 45px;
+  -webkit-animation: cone .3s linear forwards;
 }
 
 .cone {
-  right: 50px;
-  bottom: -50px;
-  -webkit-animation: cone .5s linear forwards;
+  right: 160px;
+  bottom: -60px;
+  -webkit-animation: cone .2s linear forwards;
 }
 
 @keyframes intro {
