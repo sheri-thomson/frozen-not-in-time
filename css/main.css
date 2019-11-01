@@ -52,31 +52,31 @@ img {
 }
 
 .cherry {
-  right: 200px;
+  right: 60px;
   bottom: 270px;
   -webkit-animation: cone .6s linear forwards;
 }
 
 .vanilla-fudge {
-  right: 160px;
+  right: 60px;
   bottom: 200px;
   -webkit-animation: cone .5s linear forwards;
 }
 
 .chocolate-chip {
-  right: 160px;
+  right: 50px;
   bottom: 130px;
   -webkit-animation: cone .4s linear forwards;
 }
 
 .mint-chip {
-  right: 160px;
+  right: 60px;
   bottom: 45px;
   -webkit-animation: cone .3s linear forwards;
 }
 
 .cone {
-  right: 160px;
+  right: 60px;
   bottom: -60px;
   -webkit-animation: cone .2s linear forwards;
 }
