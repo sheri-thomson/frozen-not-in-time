@@ -61,49 +61,29 @@ img {
   transform: rotate(-5deg);
 }
 
-.cherry {
-  right: 160px;
-  bottom: 270px;
-  animation: cherry .15s 1.5s ease-in forwards;
+.icecream-cone {
+  animation: cone-drop-in .3s ease-in forwards;
 }
 
-.vanilla-fudge {
-  right: 60px;
-  bottom: 200px;
-  animation: vanilla-fudge .2s .9s ease-in forwards;
+.icecream-mint {
+  animation: mint-drop-in .3s .3s ease-in forwards;
 }
 
-.chocolate-chip {
-  right: 50px;
-  bottom: 130px;
-  animation: chocolate-chip .3s .6s ease-in forwards;
+.icecream-choc {
+  left: 53%;
+  animation: choc-drop-in .3s .6s ease-in forwards;
 }
 
-.mint-chip {
-  right: 60px;
-  bottom: 45px;
-  animation: mint-chip .3s .3s ease-in forwards;
+.icecream-vanilla {
+  left: 48%;
+  animation: vanilla-drop-in .2s .9s ease-in forwards;
 }
 
-.cone {
-  right: 60px;
-  bottom: -60px;
-  animation: cone .3s ease-in forwards;
+.icecream-cherry {
+  animation: cherry-drop-in .15s 1.5s ease-in forwards;
 }
 
-@keyframes cone {
-
-  0% {
-    bottom: 100%;
-  }
-
-  100% {
-    bottom: 0;
-  }
-
-}
-
-@keyframes mint-chip {
+@keyframes mint-drop-in {
 
   0% {
     bottom: 100%;
@@ -115,38 +95,50 @@ img {
 
 }
 
-@keyframes chocolate-chip {
+@keyframes cone-drop-in {
 
   0% {
     bottom: 100%;
   }
 
   100% {
-    bottom: 225px;
+    bottom: 0;
   }
 
 }
 
-@keyframes vanilla-fudge {
+@keyframes choc-drop-in {
 
   0% {
     bottom: 100%;
   }
 
   100% {
-    bottom: 275px;
+    bottom: 190px;
   }
 
 }
 
-@keyframes cherry {
+@keyframes vanilla-drop-in {
 
   0% {
     bottom: 100%;
   }
 
   100% {
-    bottom: 325px;
+    bottom: 263px;
+  }
+
+}
+
+@keyframes cherry-drop-in {
+
+  0% {
+    bottom: 100%;
+  }
+
+  100% {
+    bottom: 342px;
   }
 
 }
