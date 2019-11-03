@@ -70,12 +70,10 @@ img {
 }
 
 .icecream-choc {
-  left: 53%;
   animation: choc-drop-in .3s .6s ease-in forwards;
 }
 
 .icecream-vanilla {
-  left: 48%;
   animation: vanilla-drop-in .2s .9s ease-in forwards;
 }
 
